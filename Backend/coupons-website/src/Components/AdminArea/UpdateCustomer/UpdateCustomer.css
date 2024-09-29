@@ -1,0 +1,65 @@
+/* UpdateCustomer.css */
+
+.login-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* צבע רקע */
+    border-radius: 8px; /* פינות מעוגלות */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* הצללה */
+    max-width: 400px; /* רוחב מרבי */
+    margin: 20px auto; /* רווח אוטומטי משני הצדדים */
+    text-align: center; /* מרכז את התוכן */
+}
+
+.login-title {
+    font-size: 24px; /* גודל גופן של הכותרת */
+    margin-bottom: 20px; /* רווח מתחת לכותרת */
+    color: #333; /* צבע טקסט */
+}
+
+.login-form {
+    display: flex; /* מאפשר לסדר את התוכן */
+    flex-direction: column; /* סידור בעמודה */
+}
+
+label {
+    margin: 10px 0 5px; /* רווחים סביב התווית */
+    text-align: left; /* יישור לשמאל */
+}
+
+input {
+    padding: 10px; /* ריפוד פנימי */
+    border: 1px solid #ccc; /* גבול אפור */
+    border-radius: 5px; /* פינות מעוגלות */
+    margin-bottom: 15px; /* רווח מתחת לשדה */
+    font-size: 16px; /* גודל גופן */
+}
+
+input:disabled {
+    background-color: #e9ecef; /* צבע רקע לשדות מושבתים */
+}
+
+span {
+    color: #dc3545; /* צבע טקסט שגיאות */
+    font-size: 14px; /* גודל גופן של שגיאות */
+    margin-top: -10px; /* רווח שלילי כדי לקבוע מיקום */
+}
+
+button {
+    padding: 10px 20px; /* ריפוד פנימי */
+    border: none; /* ללא גבול */
+    border-radius: 5px; /* פינות מעוגלות */
+    color: white; /* צבע טקסט */
+    background-color: #007bff; /* צבע רקע */
+    font-size: 16px; /* גודל גופן */
+    cursor: pointer; /* מצביע שינויים על הכפתור */
+    transition: background-color 0.3s; /* מעבר חלק */
+}
+
+button:disabled {
+    background-color: #6c757d; /* צבע רקע לכפתור מושבת */
+    cursor: not-allowed; /* מצביע שינויים כאשר הכפתור מושבת */
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3; /* צבע רקע לכפתור כאשר המפנים עליו */
+}

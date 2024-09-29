@@ -1,0 +1,42 @@
+.companyCard {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid cornflowerblue;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.companyCard:hover {
+    transform: scale(1.02);
+}
+
+.companyCard h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: cornflowerblue;
+}
+
+.companyCard p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.companyCard .button {
+    align-self: flex-start;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.companyCard .button:hover {
+    background-color: #4a86e8;
+}

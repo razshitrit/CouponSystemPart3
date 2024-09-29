@@ -1,0 +1,47 @@
+/* AllCompanies.css */
+
+.container {
+    padding: 20px;
+    background-color: #f9f9f9; /* צבע רקע */
+    border-radius: 8px; /* פינות מעוגלות */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* הצללה */
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #007bff; /* צבע רקע של כפתור */
+    color: white; /* צבע טקסט */
+    border: none;
+    border-radius: 5px; /* פינות מעוגלות */
+    text-decoration: none; /* הסרת קו תחתון */
+    display: inline-block; /* הצגת הכפתור בלוק */
+    margin-bottom: 20px; /* רווח מתחת לכפתור */
+    transition: background-color 0.3s; /* מעבר חלק */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* צבע רקע בכפתור כאשר המפנים עליו */
+}
+
+.company-card-container {
+    display: flex;
+    flex-wrap: wrap; /* פריסת כרטיסי החברה בשורות */
+    gap: 20px; /* רווח בין כרטיסים */
+}
+
+p {
+    font-size: 18px;
+    color: #555; /* צבע טקסט */
+    text-align: center; /* מרכז את הטקסט */
+    margin-top: 20px; /* רווח עליון */
+}
+
+/* כרטיסי חברה */
+.company-card {
+    flex: 1 1 300px; /* פריסה גמישה עם רוחב מינימלי */
+    background-color: white; /* צבע רקע */
+    border-radius: 8px; /* פינות מעוגלות */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* הצללה */
+    padding: 20px; /* ריפוד פנימי */
+    text-align: center; /* מרכז את התוכן */
+}

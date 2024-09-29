@@ -1,0 +1,33 @@
+.aside {
+    width: 250px;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border-right: 2px solid cornflowerblue;
+    min-height: calc(100vh - 60px);
+}
+
+.aside h3 {
+    text-align: center;
+    color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+.aside a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.aside a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.aside p {
+    text-align: center;
+    color: gray;
+}

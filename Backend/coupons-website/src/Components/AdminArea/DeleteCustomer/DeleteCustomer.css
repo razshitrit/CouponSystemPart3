@@ -1,0 +1,42 @@
+/* DeleteCustomer.css */
+
+.login-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* צבע רקע */
+    border-radius: 8px; /* פינות מעוגלות */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* הצללה */
+    text-align: center; /* מרכז את התוכן */
+}
+
+.login-title {
+    font-size: 24px; /* גודל גופן של הכותרת */
+    margin-bottom: 20px; /* רווח מתחת לכותרת */
+    color: #333; /* צבע טקסט */
+}
+
+.btn {
+    padding: 10px 20px; /* ריפוד פנימי */
+    border: none; /* ללא גבול */
+    border-radius: 5px; /* פינות מעוגלות */
+    color: white; /* צבע טקסט */
+    font-size: 16px; /* גודל גופן */
+    margin: 5px; /* רווח בין כפתורים */
+    cursor: pointer; /* מצביע שינויים על הכפתור */
+    transition: background-color 0.3s; /* מעבר חלק */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* צבע רקע לכפתור מחיקה */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* צבע רקע בכפתור מחיקה כאשר המפנים עליו */
+}
+
+.btn-primary {
+    background-color: #007bff; /* צבע רקע לכפתור ביטול */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* צבע רקע בכפתור ביטול כאשר המפנים עליו */
+}

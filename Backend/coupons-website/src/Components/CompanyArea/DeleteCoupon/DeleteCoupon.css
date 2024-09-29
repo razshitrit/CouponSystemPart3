@@ -1,0 +1,46 @@
+/* DeleteCoupon.css */
+
+/* כלליים */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh; /* מלא את גובה החלון */
+    background-color: #f9f9f9; /* צבע רקע כללי */
+}
+
+.login-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* צבע כותרת כהה */
+}
+
+/* כפתורים */
+.btn {
+    padding: 10px 20px;
+    margin: 10px; /* רווח בין כפתורים */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer; /* שינוי לסמן ידני כשמרחפים על כפתור */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* צבע כפתור מחיקה */
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* צבע כפתור מחיקה בעת ריחוף */
+}
+
+.btn-primary {
+    background-color: #007bff; /* צבע כפתור ביטול */
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* צבע כפתור ביטול בעת ריחוף */
+}

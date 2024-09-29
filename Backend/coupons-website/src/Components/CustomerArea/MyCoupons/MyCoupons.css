@@ -1,0 +1,27 @@
+/* MyCoupons.css */
+
+.container {
+    padding: 20px;
+    background-color: #f9f9f9; /* צבע רקע */
+}
+
+.coupon-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* רווח בין כרטיסי קופון */
+}
+
+.no-coupons {
+    font-size: 20px;
+    color: #777; /* צבע טקסט לא זוהר */
+    text-align: center;
+}
+
+/* עיצוב כרטיסי קופון אם יש צורך */
+.coupon-card {
+    background-color: #fff; /* צבע רקע של כרטיס */
+    border: 1px solid #ddd; /* גבול דק */
+    border-radius: 8px; /* פינות מעוגלות */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* הצללה קלה */
+    padding: 15px; /* רווח פנימי */
+}

@@ -1,0 +1,7 @@
+.customerCard{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid cornflowerblue;
+    padding: 10px;
+    margin: 10px;
+}
