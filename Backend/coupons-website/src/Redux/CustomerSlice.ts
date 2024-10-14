@@ -7,8 +7,7 @@ import { CouponModel } from "../Models/CouponModel";
     allCoupons: CouponModel[];
     myCoupons: CouponModel[];
   }
-  
-  // Initialize user data by calling loadUserFromLocalStorage
+
   const initialState: CustomerState = {
     allCoupons: [],
     myCoupons: [],

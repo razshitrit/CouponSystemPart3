@@ -8,8 +8,7 @@ import { CouponModel } from "../Models/CouponModel";
   interface CompanyState {
     coupons: CouponModel[];
   }
-  
-  // Initialize user data by calling loadUserFromLocalStorage
+
   const initialState: CompanyState = {
     coupons: [],
   };
